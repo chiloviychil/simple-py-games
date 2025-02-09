@@ -1,4 +1,5 @@
-![ClipWindowsGIF](https://github.com/user-attachments/assets/06e6f539-5d37-49d7-a428-8e43b2973f0a)# How to Install Python and Pygame
+
+# How to Install Python and Pygame
 ## Installing Python:
 ### Download Python:
 
