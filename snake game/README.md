@@ -28,3 +28,5 @@ Press the 'R' key to restart the game if you collide.
  -> Python 3.x
 
  -> Pygame
+
+![image](https://github.com/user-attachments/assets/19093073-1efc-4fe3-88f5-139cc2d7cbb0)
