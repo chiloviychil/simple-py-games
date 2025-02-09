@@ -13,7 +13,7 @@ Follow these steps to install and run the game:
    3.x python
    pip install pygame
 
-#How to Play
+# How to Play
 Press the 'SPACE' key to start the game.
 
 Use the arrow keys to control the snake's movement.
@@ -24,7 +24,7 @@ Avoid colliding with the walls and yourself to prevent game over.
 
 Press the 'R' key to restart the game if you collide.
 
-#Requirements
+# Requirements
  -> Python 3.x
 
  -> Pygame
