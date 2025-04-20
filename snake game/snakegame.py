@@ -13,7 +13,7 @@ WINDOW_HEIGHT = 600
 GRID_SIZE = 20
 GRID_WIDTH = WINDOW_WIDTH // GRID_SIZE
 GRID_HEIGHT = WINDOW_HEIGHT // GRID_SIZE
-FPS = 10
+FPS = 60
 
 # Colors
 WHITE = (255, 255, 255)
@@ -113,14 +113,15 @@ class SnakeGame:
         self.draw_grid()
 
         # Draw snake
-        for i, segment in enumerate(self.snake):
-            color = GREEN if i == 0 else DARK_GREEN  # Head is lighter green
-            pygame.draw.rect(self.screen, color, (
-                segment[0] * GRID_SIZE,
-                segment[1] * GRID_SIZE,
-                GRID_SIZE - 1,
-                GRID_SIZE - 1
-            ))
+        for n in range(2):
+            for i, segment in enumerate(self.snake):
+                color = GREEN if i == 0 else DARK_GREEN  # Head is lighter green
+                pygame.draw.rect(self.screen, color, (
+                    segment[0] * GRID_SIZE,
+                    segment[1] * GRID_SIZE,
+                    GRID_SIZE - 1,
+                    GRID_SIZE - 1
+                ))
 
         # Draw food
         pygame.draw.rect(self.screen, RED, (
